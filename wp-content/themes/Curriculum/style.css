@@ -1,0 +1,48 @@
+/*
+Theme Name:   Curriculum
+Description:  Portfolio
+Author:       alex
+Author URL:   http://localhost/alex/curriculum
+Template:     photo-journal
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  Curriculum
+*/
+
+/* Escribe aquí tu propia hoja de estilos personal */
+h2.section-title{
+    display: none;
+}
+time{
+    display:none;
+}
+.entry-meta{
+    display: none;
+}
+.sticky-post{
+    display: none;
+}
+.site-header-main{
+    display: none;
+}
+h2.entry-title a{
+    color: rgb(238, 192, 92);
+}
+.page-title{
+    display:none;
+}
+.row img{
+    transition: transform .2s;
+}
+.row img:hover{
+    transform: scale(1.5);
+}
+.redonda{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.redonda:hover{
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
