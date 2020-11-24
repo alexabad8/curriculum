@@ -46,3 +46,28 @@ h2.entry-title a{
     -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
+.yo{
+    border-radius:50%;
+    margin-left: 1em;
+    border: solid 5px rgb(42, 111, 168);
+    box-shadow:0 0 24px rgb(42, 111, 168);
+    
+}
+.yo:hover{
+    border: solid 5px rgb(199, 151, 63);
+    box-shadow:0 0 24px darkgoldenrod;
+}
+.circulo{
+    border-radius: 50%;
+}
+.portfolio{
+    margin: 4em auto;
+    border: solid 5px rgb(42, 111, 168);
+    box-shadow:0 0 24px rgb(42, 111, 168);
+    transition: transform .2s;
+}
+.portfolio:hover{
+    border: solid 5px rgb(45, 92, 49);
+    box-shadow:0 0 24px rgb(45, 92, 49);
+    transform: scale(1.5);
+}
